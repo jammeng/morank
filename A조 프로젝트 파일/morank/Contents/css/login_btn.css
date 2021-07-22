@@ -1,0 +1,64 @@
+.login{
+  float:right;
+  margin-right:20px;
+  text-align: right;
+}
+
+.login_btn{
+  width:100px;
+  height:25px;
+  background: none;
+  border-radius: 5px;
+  border:0;
+  margin-top:11px;
+  cursor:pointer;
+}
+
+#profile_wrap{
+  display: none;
+  position:relative;
+  text-align: center;
+  width:200px;
+  right:10px;
+  padding:10px;
+  border:1px solid #ccc;
+  box-shadow: 0 2px 10px #ccc;
+  border-radius: 5px;
+  background: #eee;
+  z-index:1000;
+}
+
+.hello{
+  color:black;
+}
+
+.profile_img{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  background: #efd2a8;
+  margin:20px auto;
+}
+
+.profile_img img{
+  width:100px !important;
+  height:100px !important;
+  border-radius:50%;
+}
+
+.mypage, .logout{
+  color:#4585f1;
+  border-radius:10px;
+  padding:10px;
+  border:1px solid #ccc;
+  background:white;
+}
+
+.logout{
+  color:#f14548;
+}
+
+
+hr{
+  margin:0 0 20px 0;
+}

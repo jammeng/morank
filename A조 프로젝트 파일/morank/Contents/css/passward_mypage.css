@@ -1,0 +1,279 @@
+* {
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+
+}
+
+html, body{
+  width:100%;
+  height:100%;
+}
+
+body{
+  background: #e2e2e2;
+}
+
+#wrapper {
+  width:100%;
+  height:auto;
+  background: #e2e2e2;
+}
+
+
+#centent-background{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: #e2e2e2;
+}
+
+#wire{
+  width:70%;
+  height: 90%;
+  margin:auto;
+}
+
+.head-menu ul li:first-of-type a:hover{
+	color:#888;
+}
+
+.head-menu ul li:last-of-type a{
+	color:#888;
+	font-weight:bolder;
+}
+
+.form-password {
+  max-width: 500px;
+  height: 460px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;	
+  margin: auto;
+  box-shadow:0 2px 10px #aaa;
+}
+
+.con_title{
+	margin-bottom:40px;
+}
+
+form .btn{
+	width:150px;
+	margin:auto;
+}
+
+.centered {
+  width: 300px;
+  margin: auto;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 60px;
+}
+
+.account {
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1px;
+}
+
+.account:last-child{
+  margin-bottom: 40px;
+}
+
+label {
+  position: absolute;
+  top: 15px;
+  left:0;
+  cursor: text;
+  transition: 0.25s ease;
+}
+
+
+
+.centered input {
+  position:absolute;
+  display: block;
+  width:100%;
+  height:50px;
+  border: none;
+  transition: 0.3s ease;
+  text-align: left;
+  padding-top:10px;
+}
+
+input:valid ~ label {
+  position: absolute;
+  top: 9px;
+  font: 15px;
+  color: white;
+
+}
+input:focus {
+  outline: none;
+}
+
+input:focus ~ label {
+  top: -2px;
+  font: 700 12px Roboto;
+  color: #2196f3;
+  z-index: 5;
+  transition: 0.5s;
+}
+input:focus ~ .bar:before {
+  transform: translateX(-50%);
+  transition: all 0.25s;
+  box-shadow: 0 0 5px #428bca;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  /* background-color: white; */
+  -webkit-text-fill-color: black !important;
+}
+
+span{
+  display:inline;
+}
+
+span a{
+  text-decoration: none;
+  color:#777;
+  font-size: 12px;
+}
+
+.bar {
+  background: #ccc;
+  content: "";
+  width: auto;
+  height: 1px;
+  transition: 0.3s ease;
+  position: relative;
+  margin-top: 55px;
+}
+.bar:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  background: #fff;
+  transform: translateX(100%);
+}
+
+::selection {
+  background: rgba(33, 150, 243, 0.3);
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.form-signin .checkbox {
+  display:block;
+  margin-bottom:30px;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  width:100%;
+  padding: 20px 20px 10px 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 1;
+}
+
+/* .checkbox {
+  position:relative;
+} */
+
+/* https://kimyc1223.github.io/2019-10-14-WEB001/ */
+.btn{
+  position:relative;
+  left:50%;
+  transform: translateX(-165%);
+  transition: 0.5s;
+  /* margin-bottom: 40px; */
+  width:75%;
+  height:45px;
+  background: linear-gradient(125deg,#ffeb90,#e7c05c,#d49420);
+  background-position: left;
+  background-size: 200%;
+  color:white;
+  font-weight: bold;
+  font-size: 18px;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.btn a{
+  color:white;
+}
+
+.btn:hover{
+  color:white;
+  background-position: right;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+  transition: 1s;
+}
+
+.btn:active{
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.forget-signup{
+  margin:10px 0 0 0;
+  text-align:center;
+}
+
+
+footer{
+  width:100%;
+  display: block;
+  position:absolute;
+  bottom:0;
+  background-color: #e2e2e2;
+  /* background: white; */
+  font-size: 12px;
+}
+
+.list_page a{
+  padding:0 10px;
+}
+
+.company{
+  display: inline;
+  padding: 10px;
+}
+
+.footer *{
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.detail{
+  text-align: left;
+}
+
+@media screen and (max-height:390px){
+  footer{
+    display:none;
+  }
+}

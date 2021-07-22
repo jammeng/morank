@@ -1,0 +1,64 @@
+*{
+  justify-content:center;
+  text-decoration : none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #white;
+
+  /* 구분선 */
+  border-style: solid ;
+  border-color: white white black white; /* 위 오른쪽 아래 왼쪽 색 */
+  /* padding: 8px 12px; */
+}
+
+.main_logo{
+  display: flex;
+  padding: 8px 12px;
+
+}
+
+.content{
+  display: flex;
+  padding: 8px 12px;
+}
+
+section {
+    margin: 8px;
+    border : 1px solid black;
+    width:100%;
+    height:500px;
+
+    display: flex;
+}
+
+section article{
+  border : 1px solid black;
+  margin: 8px;
+}
+
+.info{
+  flex:1;
+  width: 30%;
+  height:400px;
+}
+
+.comment{
+  flex:1;
+  width: 30%;
+  height:400px;
+}
+
+.other_rank{
+  flex:1;
+  width: 20%;
+  height:400px;
+}
+
+footer{
+
+  border : 1px solid black;
+}

@@ -1,0 +1,175 @@
+* {
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+html, body{
+  width:100%;
+  height:100%;
+}
+
+#wrapper {
+  width:100%;
+  height:100%;
+}
+
+header{
+  display: block;
+  /* position: absolute; */
+  /* top:0; */
+  width:100%;
+  height:50px;
+  background: #fae6b1;
+}
+
+.head{
+  display: block;
+  margin:auto;
+  max-width: 1300px;
+  height:50px;
+  color:white;
+  /* padding-top:8px; */
+  /* margin-top: 10px; */
+}
+
+#wire{
+  width:70%;
+  margin:auto;
+}
+
+.head img{
+  width:125px;
+  float:left;
+  margin-right: 15px;
+  padding-top:8px;
+}
+
+.head h2{
+  float:left;
+}
+
+.head span{
+  float:right;
+}
+
+/* 본문 */
+.main_contents {
+  margin-top: 10%;
+}
+
+.search_result{
+  margin:30px 0;
+}
+
+.category ul{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.category ul li:hover{
+  color:#fae6b1;
+  cursor:pointer;
+}
+/* 카테고리 밑 큰 박스 속성입니다. */
+.ranking_contain{
+  width:500px;
+  height:500px;
+  border:1px solid #ccc;
+  margin:auto;
+  margin-top:30px;
+  background:#eee;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px #ccc;
+}
+
+.ranking_box{
+  width:90%;
+  height:90%;
+  border:1px solid #ccc;
+  margin:auto;
+  margin-top:25px;
+  border-radius: 15px;
+  background: white;
+}
+
+.notice_text{
+  margin-top: 5%;
+}
+
+.categorybord{
+  width: 50%;
+  margin: auto;
+  margin-top: 8%;
+  margin-bottom: 8px;
+  border: 1px solid black;
+}
+
+.small_category{
+  display: flex;
+  justify-content: center;
+}
+
+.small_category li{
+  margin: 10px;
+}
+
+.cate1, .cate2, .cate3{
+  background-color: white;
+  border: none;
+}
+
+.rankingbord {
+  margin-top: 8px;
+  margin: auto;
+  height: 300px;
+  width: 600px;
+  border: 1px solid black;
+}
+
+.rankingbord table{
+  position:absolute;
+  top:55%;
+  left:43%;
+  overflow: hidden; /*글자 넘칠때 아래로 뻗는경우 예방*/
+  margin:auto;
+  border: 1px solid black;
+}
+
+.rankings{
+  display: none;
+}
+
+
+
+footer{
+  width:100%;
+  display: block;
+  position:absolute;
+  bottom:0;
+  background-color:rgba(255, 255, 255, 0.9);
+  /* background: white; */
+  font-size: 12px;
+}
+
+.company{
+  display: inline;
+  padding: 10px;
+}
+
+.footer *{
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.detail{
+  text-align: left;
+}
+
+@media screen and (max-height:390px){
+  footer{
+    display:none;
+  }
+}

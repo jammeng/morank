@@ -1,0 +1,18 @@
+<Context path="/morank" docBase="www">
+<Resource
+	name="jdbc/morank"
+	auto="Container"
+	type="javax.sql.DataSource"
+	driverClassName="com.mysql.jdbc.Driver"
+	loginTimeout="10"
+	validationQuery="SELECT 1 FROM DUAL"
+	maxWait="5000"
+	username="root"
+	password="jusu159357!"
+	testOnBorrow = "true"
+	url = "jdbc:mysql://localhost:3306/morank"/>
+<ResourceLink type = "javax.sql.data.DataSource"
+	name = "jdbc/morank"
+	global="jdbc/morank"/>
+
+</Context>

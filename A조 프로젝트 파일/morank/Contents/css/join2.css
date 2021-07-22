@@ -1,0 +1,111 @@
+*{
+	font-size:14px;
+}
+
+body {
+  margin:0;
+  padding:0;
+  background:#eee !important;
+}
+
+hr{
+  width: 90%;
+  border:1px solid #eee;
+}
+
+a{
+  text-decoration: none;
+}
+
+li {
+  display:flex;
+  list-style: none;
+  padding-left: 10px;
+}
+	
+input{
+  border: 1px solid #eee;
+}
+
+h4{
+  margin:10px 0;
+}
+
+footer{
+  text-align: center;
+  font-size: 12px;
+  margin-top:30px;
+}
+
+#wrapper {
+  background:white;
+  text-align:center;
+  margin:auto;
+  width:500px;
+  height:100%;
+  border-radius: 10px;
+  margin-top:50px;
+  /* box-shadow:; */
+}
+
+.button img{
+  width:10px;
+  padding:20px;
+}
+
+.title{
+  margin-top:0;
+  margin-bottom:20px;
+}
+
+.logo img{
+  margin:40px 0 0 0;
+  width:100px;
+}
+
+.account_info{
+  font-size: 12px;
+  color:#aaa;
+  text-align:left;
+  margin:60px 0 30px;
+  padding-left:75px;	
+}
+
+.account_info span{
+	display:inline-block;
+	width:90px;
+	padding-right:10px;	
+}
+
+.account_info input{
+  width:250px;
+  height:30px;
+  margin-bottom:30px;
+  border:none;
+  border-bottom:1px solid #ccc;
+  padding-left:10px;
+}
+
+.email{
+  margin-bottom:20px;
+}
+
+
+.confirm, .cancle{
+  width:175px;
+  height:75px;
+  margin:0 5px 30px;
+  background:#fbaf5d;
+  font-size:24px;
+  border:1px solid #ffcc95;
+  border-radius:15px;
+  color:white;
+  cursor:pointer;
+}
+
+.cancle{
+  border:1px solid #ccc;
+  background:white;
+  color:black;
+  top:0;
+}
